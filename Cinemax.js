@@ -264,7 +264,7 @@ switch (opcion) {
         registroPeliculas.eliminarPelicula();
         break;
     case 7:
-        console.log("BYE,Bonito dia hasta la proxima");
+        console.log("Bai,Bonito dia hasta la proxima");
         return;
     default:
         console.log("opcion invalida. intente de nuevo porfavor");
