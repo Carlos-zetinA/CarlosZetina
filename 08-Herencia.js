@@ -27,4 +27,9 @@ class Alumnos extends personas{
 }
 
 let alumno1=new Alumnos("Medel","Reyes","10-16","23E20142","ING.Civil","3");
+let alumno2=new Alumnos("Medel","Reyes","10-16","23E20142","ING.Civil","3");
+let alumno3=new Alumnos("Medel","Reyes","10-16","23E20142","ING.Civil","3");
+
 alumno1.mensaje();
+alumno2.mensaje();
+alumno3.mensaje();
