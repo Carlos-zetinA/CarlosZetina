@@ -19,7 +19,7 @@ class personas {
         let direccion = prompt("Ingrese la direccion de la persona:");
         let telefono = prompt("Ingrese el telefono de la persona:");
 
-        let personas = new personas(nombre,edad,sexo,direccion,telefono);
+        let persona = new personas (nombre,edad,sexo,direccion,telefono);
         this.array.push(personas);
      }
     }
