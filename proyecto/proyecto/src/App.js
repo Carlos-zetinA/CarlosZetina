@@ -1,30 +1,16 @@
 import "./App.css";
-import Otro from "./Otro";
+import Estados from "./components/Estados";
+//import Propiedades from "./components/Propiedades";
+/*import Otro from "./Otro";
 import Formulariocss from "./Formulariocss";
-import Formularioboot from "./components/Formularioboot";
+import Formularioboot from "./components/Formularioboot";*/
 
 function App() {
+  //const variable1=5;
+  //const variable2=5; 
   return (
     <>
-    <div className="row">
-    <div className="col-4">
-      <h1></h1>
-    </div>
-    <div className="col-4">
-      <h1></h1>
-    </div>
-    <div className="col-4">
-      <h1></h1>
-    </div>
-    </div>
-    <div className="App">
-      <h1>Hola</h1>
-      <Otro />
-      <Formulariocss />
-      <div className="container-fluid p-3 ">
-        <Formularioboot />
-      </div>
-    </div>
+   <Estados/>
     </>
   );
 }
