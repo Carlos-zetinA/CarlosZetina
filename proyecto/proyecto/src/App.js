@@ -1,17 +1,16 @@
 import "./App.css";
-import Estados from "./components/Estados";
-//import Propiedades from "./components/Propiedades";
-/*import Otro from "./Otro";
-import Formulariocss from "./Formulariocss";
-import Formularioboot from "./components/Formularioboot";*/
+import { BrowserRouter as Router } from "react-router-dom";
+import Menu from "./components/inicio/Menu";
+import Rutas from "./routes/Rutas";
 
 function App() {
-  //const variable1=5;
-  //const variable2=5; 
   return (
-    <>
-   <Estados/>
-    </>
+    <Router>
+      <div className="container-fluid">
+        <Menu />
+        <Rutas/>
+      </div>
+    </Router>
   );
 }
 
